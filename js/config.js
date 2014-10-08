@@ -6,15 +6,15 @@ var lang = window.navigator.language;
 //change weather params here:
 //units: metric or imperial
 var weatherParams = {
-    'q':'Baarn,Netherlands',
+    'q':'Ruda Slaska,Poland',
     'units':'metric',
     'lang':lang
 };
 
-var feed = 'http://feeds.nos.nl/nosjournaal?format=rss';
-//var feed = 'http://www.nu.nl/feeds/rss/achterklap.rss';
+//var feed = 'http://feeds.nos.nl/nosjournaal?format=rss';
+//var feed = 'http://www.phoronix.com/rss.php';
 //var feed = 'http://www.nu.nl/feeds/rss/opmerkelijk.rss';
-//var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
+var feed = 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml';
 
 // compliments:
 var compliments = [
@@ -25,5 +25,6 @@ var compliments = [
             'Wow, you look hot!',
             'Looking good today!',
             'You look nice!',
-            'Enjoy your day!'
+            'Bo w życiu ino Ruch się liczy', 
+	   'Enjoy your day!'
         ];
